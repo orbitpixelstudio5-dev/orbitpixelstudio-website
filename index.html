@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Orbit Pixel Studio — Websites, Social Media &amp; Lead Generation</title>
+<meta name="description" content="Orbit Pixel Studio builds business websites, runs social media marketing and generates qualified leads for growing businesses across Navi Mumbai, Kalyan, Dombivli, Thane and Maharashtra." />
+<meta name="theme-color" content="#090909" />
+<meta property="og:title" content="Orbit Pixel Studio — Move Your Business Into a Better Orbit" />
+<meta property="og:description" content="Websites. Social Media. Leads. One digital growth system for small and growing businesses across India." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://orbitpixelstudio.in" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Orbit Pixel Studio",
+  "url": "https://orbitpixelstudio.in",
+  "telephone": "+917796016431",
+  "description": "Digital solutions studio offering website development, social media marketing and lead generation for small and growing businesses across Maharashtra, India.",
+  "areaServed": ["Navi Mumbai","Kharghar","Panvel","Kalyan","Dombivli","Badlapur","Neral","Karjat","Mumbai","Maharashtra","India"],
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Website Development","description":"Business websites, landing pages, e-commerce websites and website SEO."}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Social Media Marketing","description":"Social media management, content creation and social media branding."}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lead Generation","description":"Meta Ads, Google Ads and lead funnel optimization."}}
+  ]
+}
+</script>
+<link rel="canonical" href="https://orbitpixelstudio.in/" />
+<script>
+/* Hero text starts hidden only while the GSAP intro can run; if it never starts (blocked CDN, JS error), show it after 3.5s */
+document.documentElement.classList.add('js');
+setTimeout(function(){ if (!window.__heroIntroStarted) document.documentElement.classList.remove('js'); }, 3500);
+</script>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">ORBIT<span>PIXEL</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/services/">Services</a>
+      <a href="/process.html">Process</a>
+      <a href="/work/">Work</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="/contact.html" class="btn btn-ghost nav-cta-desktop" id="navCta" data-open-lead>Start a Project</a>
+      <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/">Home</a>
+  <a href="/about.html">About</a>
+  <a href="/services/">Services</a>
+  <a href="/process.html">Process</a>
+  <a href="/work/">Work</a>
+  <a href="/contact.html">Contact</a>
+  <a href="/contact.html" class="btn btn-primary" data-open-lead>Start a Project</a>
+</div>
+
+<main id="main">
+
+  <!-- ============ 01 HERO ============ -->
+  <section class="hero hero--cinematic" id="home">
+    <canvas id="heroCanvas3d" class="hero-canvas-3d" aria-hidden="true"></canvas>
+    <div class="hero-bg-ring" aria-hidden="true">
+      <svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="ringGradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8b5cf6"/><stop offset="52%" stop-color="#4f8eff"/><stop offset="100%" stop-color="#ff7a45"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="600" cy="400" rx="540" ry="250" fill="none" stroke="url(#ringGradBg)" stroke-width="1" opacity="0.3"/>
+        <ellipse cx="600" cy="400" rx="700" ry="330" fill="none" stroke="url(#ringGradBg)" stroke-width="1" opacity="0.15"/>
+      </svg>
+    </div>
+
+    <div class="hud" id="heroHud" aria-hidden="true">
+      <span class="hud-corner hud-corner--tl" data-hud-in></span>
+      <span class="hud-corner hud-corner--tr" data-hud-in></span>
+      <span class="hud-corner hud-corner--bl" data-hud-in></span>
+      <span class="hud-corner hud-corner--br" data-hud-in></span>
+      <div class="hud-scanline"></div>
+      <div class="hud-readout hud-readout--tl" data-hud-in>
+        <span class="hud-dot"></span>ORBIT.STUDIO // TRACKING
+      </div>
+      <div class="hud-readout hud-readout--tr" data-hud-in>
+        <span class="hud-dot hud-dot--live"></span><span id="hudTime">--:--:--</span> IST
+      </div>
+      <div class="hud-readout hud-readout--bl" data-hud-in>
+        SYSTEMS <span class="hud-sep">/</span> <span class="hud-tag hud-tag--purple">WEB</span><span class="hud-tag hud-tag--blue">SMM</span><span class="hud-tag hud-tag--orange">LEADS</span>
+      </div>
+      <div class="hud-readout hud-readout--br" data-hud-in>
+        SCROLL TO EXPLORE ↓
+      </div>
+    </div>
+
+    <div class="hero-content" id="heroCopy">
+      <p class="eyebrow" data-hero-in>Enter the Digital Orbit</p>
+      <h1>
+        <span class="reveal-mask"><span class="reveal-inner" data-headline-in>Your business.</span></span><br>
+        <span class="reveal-mask"><span class="reveal-inner grad-text" data-headline-in>In a better orbit.</span></span>
+      </h1>
+      <p class="hero-sub" data-hero-in>Websites. Social Media. Leads.</p>
+      <p class="hero-support" data-hero-in>We build your digital presence, grow your audience and turn attention into real business enquiries.</p>
+      <div class="hero-actions" data-hero-in>
+        <a href="/contact.html" class="btn btn-primary" data-open-lead>Start a Project</a>
+        <a href="#services" class="btn btn-ghost">Explore Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 02 BRAND POSITIONING ============ -->
+  <section class="section positioning" id="positioning">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Brand Positioning</p>
+        <h2 class="section-title">Three services.<br>One digital growth system.</h2>
+        <p class="section-copy">We focus on the three digital foundations that help businesses build credibility, grow attention and generate enquiries.</p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar" data-pillar="1">
+          <p class="pillar-num">01 — BUILD</p>
+          <h3>Website Development</h3>
+          <p>The foundation your business stands on.</p>
+        </div>
+        <div class="pillar" data-pillar="2">
+          <p class="pillar-num">02 — GROW</p>
+          <h3>Social Media Marketing</h3>
+          <p>The attention that builds trust over time.</p>
+        </div>
+        <div class="pillar" data-pillar="3">
+          <p class="pillar-num">03 — GENERATE</p>
+          <h3>Lead Generation</h3>
+          <p>The conversion that turns interest into business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 03/04 MAIN SERVICES + DETAIL ============ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Main Services</p>
+        <h2 class="section-title">What we actually do.</h2>
+      </div>
+
+      <!-- CARD 01 — WEBSITE DEVELOPMENT -->
+      <article class="service-card" data-service="website">
+        <button class="service-card-head" aria-expanded="false">
+          <div class="service-card-left">
+            <span class="service-num">01</span>
+            <div>
+              <span class="service-tag">Website Development</span>
+              <h3>Build your digital home.</h3>
+              <p class="service-desc">Fast, modern and conversion-focused websites designed around your business.</p>
+            </div>
+          </div>
+          <span class="service-toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </button>
+        <div class="service-detail">
+          <div class="service-detail-inner">
+            <p class="service-statement">Your website should work as hard as you do.</p>
+            <div class="sub-grid">
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Business Websites</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Landing Pages</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>E-commerce Websites</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Website SEO</span></span><span class="sub-arrow">→</span></div>
+            </div>
+            <a href="/services/website-development.html" class="btn btn-ghost">Explore Website Development <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 02 — SOCIAL MEDIA MARKETING -->
+      <article class="service-card" data-service="smm">
+        <button class="service-card-head" aria-expanded="false">
+          <div class="service-card-left">
+            <span class="service-num">02</span>
+            <div>
+              <span class="service-tag">Social Media Marketing</span>
+              <h3>Turn attention into trust.</h3>
+              <p class="service-desc">We create and manage social content that builds a consistent digital presence for your brand.</p>
+            </div>
+          </div>
+          <span class="service-toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </button>
+        <div class="service-detail">
+          <div class="service-detail-inner">
+            <p class="service-statement">Consistency is what turns followers into customers.</p>
+            <div class="sub-grid">
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Social Media Management</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Content Creation</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Social Media Branding</span></span><span class="sub-arrow">→</span></div>
+            </div>
+            <a href="/services/social-media-marketing.html" class="btn btn-ghost">Explore SMM <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- CARD 03 — LEAD GENERATION -->
+      <article class="service-card" data-service="leads">
+        <button class="service-card-head" aria-expanded="false">
+          <div class="service-card-left">
+            <span class="service-num">03</span>
+            <div>
+              <span class="service-tag">Lead Generation</span>
+              <h3>Turn interest into business.</h3>
+              <p class="service-desc">We build advertising and conversion systems designed to bring the right people to your business.</p>
+            </div>
+          </div>
+          <span class="service-toggle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 5v14M5 12h14"/></svg>
+          </span>
+        </button>
+        <div class="service-detail">
+          <div class="service-detail-inner">
+            <p class="service-statement">Ad → Landing Page → WhatsApp / Form → Enquiry.</p>
+            <div class="sub-grid">
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Meta Ads</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Google Ads</span></span><span class="sub-arrow">→</span></div>
+              <div class="sub-item"><span class="sub-item-left"><span class="sub-dot"></span><span>Lead Funnel Optimization</span></span><span class="sub-arrow">→</span></div>
+            </div>
+            <a href="/services/lead-generation.html" class="btn btn-ghost">Explore Lead Generation <span class="btn-arrow">→</span></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ 05 PROCESS ============ -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Digital Orbit Process</p>
+        <h2 class="section-title">How we move your business.</h2>
+      </div>
+      <div class="process-list">
+        <div class="process-step">
+          <div class="process-marker">01</div>
+          <div><h3>Discover</h3><p>Understand the business, audience and goals.</p></div>
+        </div>
+        <div class="process-step">
+          <div class="process-marker">02</div>
+          <div><h3>Build</h3><p>Create the website and digital foundation.</p></div>
+        </div>
+        <div class="process-step">
+          <div class="process-marker">03</div>
+          <div><h3>Grow</h3><p>Build attention through social media.</p></div>
+        </div>
+        <div class="process-step">
+          <div class="process-marker">04</div>
+          <div><h3>Generate</h3><p>Turn attention into qualified enquiries.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 SELECTED WORK ============ -->
+  <section class="section work" id="work">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Selected Work</p>
+        <h2 class="section-title">Built for real businesses.</h2>
+      </div>
+      <div class="work-grid">
+        <a class="work-card is-wide" href="https://www.mj-art-studio.in/" target="_blank" rel="noopener" style="--wc-grad:linear-gradient(135deg, rgba(139,92,246,0.28), transparent 65%)">
+          <div class="work-card-inner">
+            <div><h3>MJ Art Tattoo Studio</h3><p>Tattoo Studio · Kalyan</p></div>
+            <span class="work-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <a class="work-card" href="https://veena-catering.in" target="_blank" rel="noopener" style="--wc-grad:linear-gradient(135deg, rgba(79,142,255,0.26), transparent 65%)">
+          <div class="work-card-inner">
+            <div><h3>Veena Catering</h3><p>Catering Services</p></div>
+            <span class="work-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <a class="work-card" href="https://umagoswami.in" target="_blank" rel="noopener" style="--wc-grad:linear-gradient(135deg, rgba(255,122,69,0.24), transparent 65%)">
+          <div class="work-card-inner">
+            <div><h3>NSSA</h3><p>Nail Style Studio Academy · Andheri, Mumbai</p></div>
+            <span class="work-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <a class="work-card" href="https://cwa.in" target="_blank" rel="noopener" style="--wc-grad:linear-gradient(135deg, rgba(139,92,246,0.22), transparent 65%)">
+          <div class="work-card-inner">
+            <div><h3>CW</h3><p>Client Project</p></div>
+            <span class="work-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+        <a class="work-card" href="/work/" style="--wc-grad:linear-gradient(135deg, rgba(79,142,255,0.24), transparent 65%)">
+          <div class="work-card-inner">
+            <div><h3>SS Interior Studio</h3><p>Interior Design</p></div>
+            <span class="work-card-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 WHY ORBIT ============ -->
+  <section class="section why" id="why">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why Orbit</p>
+        <h2 class="section-title">Why Orbit?</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card"><h3>Business First</h3><p>We start with your actual business goals.</p></div>
+        <div class="why-card"><h3>Premium Design</h3><p>Modern digital experiences without unnecessary clutter.</p></div>
+        <div class="why-card"><h3>Growth Focused</h3><p>Everything connects back to visibility, trust and enquiries.</p></div>
+        <div class="why-card"><h3>One Digital Partner</h3><p>Website + Social Media + Lead Generation under one roof.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 08 LOCAL + INDIA-WIDE ============ -->
+  <section class="section local" id="local">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Local Roots, Digital Reach</p>
+        <h2 class="section-title">Local roots.<br>Digital reach.</h2>
+        <p class="section-copy">Whether you're growing locally or targeting customers across India, we build digital experiences around where your customers are.</p>
+      </div>
+      <div class="local-tags">
+        <span>Navi Mumbai</span><span>Kharghar</span><span>Panvel</span><span>Kalyan</span><span>Dombivli</span>
+        <span>Badlapur</span><span>Neral</span><span>Karjat</span><span>Mumbai</span><span>Maharashtra</span><span>India</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 09 FINAL CTA ============ -->
+  <section class="section final-cta" id="contact">
+    <div class="final-cta-ring" aria-hidden="true">
+      <svg viewBox="0 0 900 500">
+        <defs>
+          <linearGradient id="ringGradCta" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#8b5cf6"/><stop offset="52%" stop-color="#4f8eff"/><stop offset="100%" stop-color="#ff7a45"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="450" cy="250" rx="360" ry="150" fill="none" stroke="url(#ringGradCta)" stroke-width="1" opacity="0.4"/>
+        <ellipse cx="450" cy="250" rx="270" ry="112" fill="none" stroke="url(#ringGradCta)" stroke-width="1" opacity="0.25" transform="rotate(35 450 250)"/>
+      </svg>
+    </div>
+    <div class="container final-cta-inner">
+      <h2>Ready to move your business into a better orbit?</h2>
+      <p>Start with one service. Build the complete digital system when you're ready.</p>
+      <div class="final-cta-actions">
+        <button class="btn btn-primary" data-open-lead>Start a Project</button>
+        <button class="btn btn-ghost" data-open-lead>Talk to Orbit</button>
+      </div>
+      <div class="final-cta-contacts">
+        <a href="https://wa.me/917796016431" target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.44 1.32 4.94L2 22l5.28-1.38a9.9 9.9 0 0 0 4.76 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Z" opacity="0"/><path d="M12.04 3.6c-4.58 0-8.31 3.73-8.31 8.31 0 1.53.42 3 1.2 4.29l-.8 2.92 2.99-.78a8.28 8.28 0 0 0 4.92 1.58c4.58 0 8.31-3.73 8.31-8.31s-3.73-8.31-8.31-8.31Zm4.86 11.87c-.2.57-1.17 1.09-1.61 1.13-.41.04-.83.21-2.78-.58-2.35-.94-3.87-3.31-3.99-3.46-.12-.16-.95-1.26-.95-2.4s.6-1.7.81-1.93c.21-.24.46-.29.61-.29h.44c.14 0 .33-.03.51.39.2.47.68 1.63.74 1.75.06.12.1.26.02.42-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.24.25-.11.49.14.24.6.99 1.29 1.6.89.79 1.63 1.04 1.87 1.16.24.12.38.1.52-.06.14-.16.6-.7.76-.94.16-.24.31-.2.53-.12.22.08 1.38.65 1.62.77.24.12.4.18.46.28.06.1.06.58-.13 1.15Z"/></svg>
+          WhatsApp
+        </a>
+        <a href="tel:+917796016431">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          Call
+        </a>
+        <a href="mailto:hello@orbitpixelstudio.in">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v16H4V4Z"/><path d="m4 6 8 7 8-7"/></svg>
+          Email
+        </a>
+      </div>
+      <!-- TODO: confirm hello@orbitpixelstudio.in is a live mailbox -->
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ 10 FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="/" class="nav-logo">ORBIT<span>PIXEL</span></a>
+        <p class="footer-tagline">BUILD. GROW. GENERATE.</p>
+      </div>
+      <div class="footer-cols footer-cols--4">
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/process.html">Process</a></li>
+            <li><a href="/work/">Work</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Website Development</h4>
+          <ul>
+            <li><a href="/services/website-development.html#business-websites">Business Websites</a></li>
+            <li><a href="/services/website-development.html#landing-pages">Landing Pages</a></li>
+            <li><a href="/services/website-development.html#ecommerce-websites">E-commerce Websites</a></li>
+            <li><a href="/services/website-development.html#website-seo">Website SEO</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social Media Marketing</h4>
+          <ul>
+            <li><a href="/services/social-media-marketing.html#social-media-management">Social Media Management</a></li>
+            <li><a href="/services/social-media-marketing.html#content-creation">Content Creation</a></li>
+            <li><a href="/services/social-media-marketing.html#social-media-branding">Social Media Branding</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Lead Generation</h4>
+          <ul>
+            <li><a href="/services/lead-generation.html#meta-ads">Meta Ads</a></li>
+            <li><a href="/services/lead-generation.html#google-ads">Google Ads</a></li>
+            <li><a href="/services/lead-generation.html#lead-funnel-optimization">Lead Funnel Optimization</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="footerYear"></span> Orbit Pixel Studio. All rights reserved. · <a href="/privacy-policy.html">Privacy Policy</a> · <a href="/terms.html">Terms</a> · <a href="/cookie-policy.html">Cookie Policy</a> · <a href="/disclaimer.html">Disclaimer</a></span>
+      <span>Navi Mumbai · Kalyan · Dombivli · Badlapur · Maharashtra</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING ACTIONS ============ -->
+<div class="floating-actions">
+  <a class="fab fab-whatsapp" href="https://wa.me/917796016431" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 3.6c-4.58 0-8.31 3.73-8.31 8.31 0 1.53.42 3 1.2 4.29l-.8 2.92 2.99-.78a8.28 8.28 0 0 0 4.92 1.58c4.58 0 8.31-3.73 8.31-8.31s-3.73-8.31-8.31-8.31Z" opacity=".15"/><path d="M16.9 15.47c-.2.57-1.17 1.09-1.61 1.13-.41.04-.83.21-2.78-.58-2.35-.94-3.87-3.31-3.99-3.46-.12-.16-.95-1.26-.95-2.4s.6-1.7.81-1.93c.21-.24.46-.29.61-.29h.44c.14 0 .33-.03.51.39.2.47.68 1.63.74 1.75.06.12.1.26.02.42-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.24.25-.11.49.14.24.6.99 1.29 1.6.89.79 1.63 1.04 1.87 1.16.24.12.38.1.52-.06.14-.16.6-.7.76-.94.16-.24.31-.2.53-.12.22.08 1.38.65 1.62.77.24.12.4.18.46.28.06.1.06.58-.13 1.15Z"/></svg>
+  </a>
+  <a class="fab fab-call" href="tel:+917796016431" aria-label="Call Orbit Pixel Studio">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+  </a>
+</div>
+
+<!-- ============ LEAD MODAL ============ -->
+<div class="lead-modal" id="leadModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="leadModalTitle">
+  <div class="lead-modal-box">
+    <button class="lead-modal-close" id="leadModalClose" aria-label="Close form">✕</button>
+    <h3 id="leadModalTitle">Start a Project</h3>
+    <p class="hint">Tell us a bit about your business — this opens a prefilled WhatsApp message so we can reply fast.</p>
+    <form id="leadForm">
+      <div class="field"><label for="lf-name">Name</label><input id="lf-name" name="name" type="text" required /></div>
+      <div class="field"><label for="lf-business">Business Name</label><input id="lf-business" name="business" type="text" /></div>
+      <div class="field"><label for="lf-service">Interested In</label>
+        <select id="lf-service" name="service">
+          <option>Website Development</option>
+          <option>Social Media Marketing</option>
+          <option>Lead Generation</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="field"><label for="lf-message">Message</label><textarea id="lf-message" name="message" rows="3"></textarea></div>
+      <button type="submit" class="btn btn-primary">Send on WhatsApp <span class="btn-arrow">→</span></button>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1/dist/lenis.min.js"></script>
+<script src="/script.js"></script>
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.185.0/build/three.module.js" } }
+</script>
+<script type="module" src="/hero3d.js"></script>
+</body>
+</html>
