@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#0a0a0f" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Work — Selected Projects | Orbit Pixel Studio</title>
 <meta name="description" content="Selected projects by Orbit Pixel Studio for local businesses across Mumbai and Maharashtra." />
@@ -11,10 +17,35 @@
 <meta property="og:description" content="Selected projects by Orbit Pixel Studio for local businesses across Mumbai and Maharashtra." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://orbitpixelstudio.in/work/" />
+<meta property="og:image" content="https://orbitpixelstudio.in/assets/og-image.jpg" />
+<meta property="og:site_name" content="Orbit Pixel Studio" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Orbit Pixel Studio" />
+<meta name="twitter:image" content="https://orbitpixelstudio.in/assets/og-image.jpg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://orbitpixelstudio.in/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Work",
+      "item": "https://orbitpixelstudio.in/work/"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -108,9 +139,9 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a href="/" class="nav-logo">ORBIT<span>PIXEL</span></a>
-        <p class="footer-tagline">BUILD. GROW. GENERATE.</p>
+        <p class="footer-tagline">BUILD. LAUNCH. SCALE.</p>
       </div>
-      <div class="footer-cols footer-cols--4">
+      <div class="footer-cols">
         <div class="footer-col">
           <h4>Navigate</h4>
           <ul>
@@ -131,19 +162,12 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Social Media Marketing</h4>
+          <h4>SaaS Development</h4>
           <ul>
-            <li><a href="/services/social-media-marketing.html#social-media-management">Social Media Management</a></li>
-            <li><a href="/services/social-media-marketing.html#content-creation">Content Creation</a></li>
-            <li><a href="/services/social-media-marketing.html#social-media-branding">Social Media Branding</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Lead Generation</h4>
-          <ul>
-            <li><a href="/services/lead-generation.html#meta-ads">Meta Ads</a></li>
-            <li><a href="/services/lead-generation.html#google-ads">Google Ads</a></li>
-            <li><a href="/services/lead-generation.html#lead-funnel-optimization">Lead Funnel Optimization</a></li>
+            <li><a href="/services/saas-development.html#mvp-development">MVP Development</a></li>
+            <li><a href="/services/saas-development.html#custom-web-apps">Custom Web Apps</a></li>
+            <li><a href="/services/saas-development.html#saas-product-development">SaaS Product Development</a></li>
+            <li><a href="/services/saas-development.html#api-integrations">API &amp; Integrations</a></li>
           </ul>
         </div>
       </div>
@@ -176,8 +200,7 @@
       <div class="field"><label for="lf-service">Interested In</label>
         <select id="lf-service" name="service">
           <option>Website Development</option>
-          <option>Social Media Marketing</option>
-          <option>Lead Generation</option>
+          <option>SaaS Development</option>
           <option>Not sure yet</option>
         </select>
       </div>
